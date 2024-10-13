@@ -1,0 +1,275 @@
+.home-page{
+    .container {
+        width: 100%;
+        height: 100%;
+        --s: 200px; /* control the size */
+        --c1: #1d1d1d;
+        --c2: #4e4f51;
+        --c3: #3c3c3c;
+      
+        background: repeating-conic-gradient(
+              from 30deg,
+              #0000 0 120deg,
+              var(--c3) 0 180deg
+            )
+            calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+          repeating-conic-gradient(
+            from 30deg,
+            var(--c1) 0 60deg,
+            var(--c2) 0 120deg,
+            var(--c3) 0 180deg
+          );
+        background-size: var(--s) calc(var(--s) * 0.577);
+      }
+      
+}
+
+.c-button1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 37%;
+    top: 30px;
+    z-index: 1;
+  }
+  
+  .c-button--gooey1 {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey1 .c-button__blobs1 {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey1 .c-button__blobs1 div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey1 .c-button__blobs1 div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey1 .c-button__blobs1 div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey1 .c-button__blobs1 div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey1:hover {
+    color: #fff;
+  }
+  
+  .c-button--gooey1:hover .c-button__blobs1 div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
+
+
+  .c-button2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 8%;
+    top: -5%;
+    z-index: 1;
+  }
+  
+  .c-button--gooey2 {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey2 .c-button__blobs2 {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey2 .c-button__blobs2 div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey2 .c-button__blobs2 div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey2 .c-button__blobs2 div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey2 .c-button__blobs2 div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey2:hover {
+    color: #fff;
+  }
+  
+  .c-button--gooey2:hover .c-button__blobs2 div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
+
+
+  .c-button3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 21.5%;
+    bottom: 35%;
+    z-index: 1;
+  }
+  
+  .c-button--gooey3 {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey3 .c-button__blobs3 {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey3 .c-button__blobs3 div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey3 .c-button__blobs3 div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey3 .c-button__blobs3 div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey3 .c-button__blobs3 div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey3:hover {
+    color: #fff;
+  }
+  
+  .c-button--gooey3:hover .c-button__blobs3 div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
+
+  .card1 {
+    width: 190px;
+    height: 254px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .card2 {
+    width: 190px;
+    height: 254px;
+    position: absolute;
+    left: 30%;
+    bottom: 20.69%;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .card3 {
+    width: 190px;
+    height: 254px;
+    position: absolute;
+    left: 58%;
+    bottom: 8.75%;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .cloth{
+    width: 190px;
+  }
+  .shoes{
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    top: 0.5%;
+    left: 0px;
+  }
+  .access{
+    width: 190px;
+    height: 256px;
+  }
